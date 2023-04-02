@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingVertical="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_no"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="No"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black10"
+        android:layout_weight="10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_tanggal"
+        android:text="Tanggal"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black10"
+        android:layout_weight="30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_nama"
+        android:text="Nama"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black10"
+        android:layout_weight="30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_jumlah"
+        android:text="Jumlah"
+        android:textSize="@dimen/_10ssp"
+        android:gravity="end"
+        android:paddingRight="@dimen/_10sdp"
+        android:textColor="@color/black10"
+        android:layout_weight="30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <View
+        android:background="@color/black10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+
+</LinearLayout>
